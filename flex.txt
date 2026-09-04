@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      background: #ddd;
+      padding: 20px;
+      border-radius: 999px;
+      text-align: center;
+    }
+
+    .container div {
+      flex: 1 1 100px;
+      /* grow shrink basis*/
+      padding: 30px;
+      background: steelblue;
+      color: white;
+      border-radius: 999px;
+    }
+    .container div:hover {
+      background: #c725eb;
+      transform: translateY(-5px);
+
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="container">
+    <div>Meher</div>
+    <div>Borat</div>
+    <div>Piku</div>
+    <div>Eftu</div>
+  </div>
+
+</body>
+
+</html>
