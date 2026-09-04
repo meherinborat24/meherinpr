@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+      flex-wrap: wrap;
+      background: #f1f5f9;
+      padding: 30px;
+      border-radius: 20px;
+    }
+
+    .container div {
+      flex: 0 1 100px;
+      /* grow shrink basis */
+      padding: 35px;
+      background: rgb(70, 180, 90);
+      color: white;
+      border-radius: 15px;
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+
+      transition: 0.3s;
+    }
+
+    .container div:hover {
+      background: #c725eb;
+      transform: translateY(-5px);
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="container">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+  </div>
+
+</body>
+
+</html>
