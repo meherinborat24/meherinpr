@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>CSS Position Properties</title>
+
+  <style>
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #eef2f7;
+      color: #222;
+    }
+
+    /* Main heading */
+    h1 {
+      text-align: center;
+      margin: 25px 0;
+      color: #2c3e50;
+    }
+
+    /* Sticky header */
+    .sticky-box {
+      position: sticky;
+      top: 0;
+      width: 100%;
+      height: 55px;
+      background-color: #16a085;
+      color: white;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      font-size: 20px;
+      font-weight: bold;
+      z-index: 10;
+    }
+
+    .intro {
+      text-align: center;
+      margin: 20px;
+      font-size: 16px;
+    }
+
+    /* Parent container */
+    .parent-container {
+      position: relative;
+      height: 320px;
+      margin: 40px;
+      padding: 20px;
+
+      border: 3px dashed #555;
+      background-color: #ffffff;
+      border-radius: 10px;
+    }
+
+    /* Common box style */
+    .box {
+      width: 130px;
+      height: 60px;
+
+      color: white;
+      font-weight: bold;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      margin-bottom: 12px;
+      border-radius: 6px;
+    }
+
+    /* 1. Static Position */
+    .static-box {
+      position: static;
+      background-color: #34495e;
+    }
+
+    /* 2. Relative Position */
+    .relative-box {
+      position: relative;
+      top: 15px;
+      left: 35px;
+
+      background-color: #3498db;
+    }
+
+    /* 3. Absolute Position */
+    .absolute-box {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+
+      background-color: #e67e22;
+    }
+
+    /* Fixed button */
+    .fixed-box {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+
+      width: 130px;
+      height: 50px;
+
+      background-color: #8e44ad;
+      border: none;
+      border-radius: 25px;
+
+      cursor: pointer;
+    }
+
+    .content {
+      margin: 40px;
+      line-height: 1.7;
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <!-- Sticky element -->
+  <div class="sticky-box">
+    CSS Position Demo
+  </div>
+
+  <h1>Position Property in CSS</h1>
+
+  <p class="intro">
+    Scroll the page to see how different CSS position properties work.
+  </p>
+
+
+  <!-- Parent container -->
+  <div class="parent-container">
+
+    <!-- Static box -->
+    <div class="box static-box">
+      Static Box
+    </div>
+
+    <!-- Relative box -->
+    <div class="box relative-box">
+      Relative Box
+    </div>
+
+    <!-- Absolute box -->
+    <div class="box absolute-box">
+      Absolute Box
+    </div>
+
+  </div>
+
+
+  <!-- Fixed button -->
+  <input
+    class="box fixed-box"
+    type="button"
+    value="Top Button"
+  />
+
+
+  <!-- Extra content for scrolling -->
+  <div class="content">
+
+    <h2>About CSS Position</h2>
+
+    <p>
+      CSS position property is used to control the location of an element
+      on a webpage. It provides different ways to arrange elements.
+    </p>
+
+    <p>
+      The static position is the default position of an element.
+      Relative positioning allows an element to move from its normal position.
+    </p>
+
+    <p>
+      Absolute positioning places an element relative to its nearest
+      positioned ancestor.
+    </p>
+
+    <p>
+      Fixed positioning keeps an element attached to the browser window
+      even when the page is scrolled.
+    </p>
+
+    <p>
+      Sticky positioning behaves normally at first and then stays fixed
+      at a specific position while scrolling.
+    </p>
+
+    <p>
+      Scroll up and down the page to observe the Sticky Header and
+      Fixed Button.
+    </p>
+
+  </div>
+
+
+</body>
+
+</html>
