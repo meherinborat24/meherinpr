@@ -1,0 +1,43 @@
+function greet() {
+  console.log("Hello!");
+}
+
+greet();
+
+// Parameters and return value
+
+function add(a, b) {
+  return a + b;
+}
+
+let result = add(30, 50);
+console.log(result);
+
+// Default parameter
+
+function greet(name = "Meherin") {
+  console.log(`Hello, ${name}!`);
+}
+
+greet();
+greet("Eftuu");
+
+// Function expression
+
+const multiply = function (a, b) {
+  return a * b;
+};
+
+console.log(multiply(8, 9));
+
+// Pass function as an argument
+
+function greetUser(greetFunction, name) {
+  greetFunction(name);
+}
+
+function sayHello(name) {
+  console.log(`Hello, ${name}!`);
+}
+
+greetUser(sayHello, "Piku");
