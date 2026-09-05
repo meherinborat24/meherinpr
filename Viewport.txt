@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    .center{
+        text-align: center;
+    }
+    .center img {
+      max-width: 250px;
+      height: auto;
+    }
+    .center h2{
+        margin: top 10px;
+    }
+  </style>
+
+</head>
+
+<body>
+ <div class="center">
+  <img class="Doreamon and Friends" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDo3oYMa4yGu8Wyo_xvqPUr7Qur0KRCxrRTixm0zthxy--5T6RD2LWoZQg&s=10" alt="Doreamon and Friends">
+  <h2>Doreamon and Friends</h2>
+  </div> 
+ <p><h1><b>ডোরেমন (Doraemon) এবং তার বন্ধুদের কিছু চিরচেনা, মজার এবং শিক্ষণীয় সংলাপ নিচে দেওয়া হলো:
+  
+  </b></h1></p> <br>
+    <b>ডোরেমন (Doraemon)</b>
+    <p>  নোবিতা! আবার তুমি গ্যাজেট নিয়ে গোলমাল পাকিয়েছো?""ভবিষ্যতের গ্যাজেট কোনো জাদুর কাঠি নয়, নিজের বুদ্ধি ব্যবহার
+     করতে শেখো।"</p><Br>
+     <b>নোবিতা </b><br>
+        <p>(Nobita)"ডোরেমন! প্লিজ আমাকে বাঁচাও! জিয়ান আর সুনিও আমাকে আবার মেরেছে।""আজ আমি প্রতিজ্ঞা করছি, আমি নিজে একা এই 
+     সমস্যার সমাধান করব!</p><br>
+     <b>শিজুকা (Shizuka)</b><br>
+     <p>নোবিতা, তুমি পড়াশোনায় আরেকটু মন দিলে অনেক ভালো করতে পারো।""জিয়ান, সুনিও! তোমরা সবসময় নোবিতাকে খেপাও কেন?
+      এটা খুব অন্যায়।</p> <br>
+      "
+      <b> জিয়ান (Gian / Takeshi Goda)</b> <br>
+      <p>যা কিছু তোমার, তা আমার! আর যা কিছু আমার, তা তো আমারই!""আজ সন্ধ্যায় আমার গানের জলসা আছে, সবাইকে আসতেই হবে!"সুনিও (Suneo)"আমার বাবা বিদেশ থেকে এই নতুন খেলনাটি এনেছেন, কিন্তু এটি খেলার জন্য শুধু তিনজন লাগবে!
+        ""জিয়ান ভাই, তুমিই আমাদের লিডার! তোমার গান সত্যি অসাধারণ!"</p></p> <br>
+    
+
+</body>
+
+</html>
